@@ -3,7 +3,7 @@
 This project demonstrates my **Python** skills in building a data processing and analysis pipeline for energy consumption data. It is inspired by my real-world experience as **Energy Efficiency Engineer at BRF Banvit A.S.** (2021-2023).
 
 ## Project Objective
-Automate the ingestion, cleaning, validation, and analysis of industrial utility data (steam, compressed air, water) to calculate KPIs and generate energy consumption forecasts.
+Automate the ingestion, cleaning, validation, and analysis of industrial utility data (steam, compressed air, water) to calculate KPIs and generate energy consumption forecasts for sustainability reporting.
 
 ## Technologies
 - **Python 3**
@@ -33,10 +33,10 @@ cd energy-data-pipeline
 pip install -r requirements.txt
 jupyter notebook
 
-## Key Learnings
+##Key Learnings
 
-Importance of clean, reproducible data pipelines
+Importance of clean, reproducible, and well-documented data pipelines
 Data quality validation techniques
-Turning raw industrial data into actionable business insights
+Translating raw industrial data into actionable business insights
 
-This project reflects my preparation for developing robust ETL pipelines in the clean energy domain, directly relevant to Ember’s mission.
+This project reflects my preparation for developing robust ETL pipelines in the clean energy domain, directly relevant to Ember’s mission of delivering high-quality global electricity datasets.
