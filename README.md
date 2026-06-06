@@ -1,28 +1,28 @@
 # Energy Data Pipeline & Forecasting
 
-This project demonstrates my **Python** skills in building a data processing pipeline for energy consumption analysis. It is inspired by my real experience as **Energy Efficiency Engineer at BRF Banvit A.S.** (2021-2023).
+This project demonstrates my **Python** skills in building a data processing and analysis pipeline for energy consumption data. It is inspired by my real-world experience as **Energy Efficiency Engineer at BRF Banvit A.S.** (2021-2023).
 
 ## Project Objective
-To automate the ingestion, cleaning, validation, and analysis of large-scale utility data (steam, compressed air, water systems) and generate forecasts + KPIs for management and sustainability reporting.
+Automate the ingestion, cleaning, validation, and analysis of industrial utility data (steam, compressed air, water) to calculate KPIs and generate energy consumption forecasts.
 
 ## Technologies
 - **Python 3**
 - Pandas (data manipulation & cleaning)
 - NumPy
+- Matplotlib (visualization)
 - Jupyter Notebook
-- Matplotlib / Seaborn (for visualization)
 
 ## What I Did
-- Automated data loading from multiple sources
-- Built data cleaning and validation functions (handling missing values, outliers, unit standardization)
-- Performed exploratory data analysis (EDA)
-- Calculated energy KPIs and created simple forecasting models
-- Prepared export to Excel dashboards
+- Created synthetic energy dataset simulating real factory data
+- Built data cleaning and validation pipeline (handling missing values, outliers, unit standardization)
+- Calculated key energy KPIs (total energy, efficiency per unit)
+- Performed exploratory data analysis and created visualizations
+- Implemented simple moving average forecasting
 
 ## Project Structure
 energy-data-pipeline/
 ├── notebooks/
-│   └── energy_analysis.ipynb     ← Main analysis
+│   └── energy_analysis.ipynb     # Main analysis and visualizations
 ├── requirements.txt
 └── README.md
 
@@ -35,8 +35,8 @@ jupyter notebook
 
 ## Key Learnings
 
-Importance of reproducible and well-documented data pipelines
+Importance of clean, reproducible data pipelines
 Data quality validation techniques
-Translating raw industrial data into actionable insights
+Turning raw industrial data into actionable business insights
 
-This project reflects my preparation for building robust ETL processes in the clean energy sector, which aligns directly with Ember's work on global electricity and renewable datasets.
+This project reflects my preparation for developing robust ETL pipelines in the clean energy domain, directly relevant to Ember’s mission.
