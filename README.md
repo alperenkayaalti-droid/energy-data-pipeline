@@ -20,3 +20,23 @@ To automate the ingestion, cleaning, validation, and analysis of large-scale uti
 - Prepared export to Excel dashboards
 
 ## Project Structure
+energy-data-pipeline/
+├── notebooks/
+│   └── energy_analysis.ipynb     ← Main analysis
+├── requirements.txt
+└── README.md
+
+## How to Run
+```bash
+git clone https://github.com/alperenkayaalti-droid/energy-data-pipeline.git
+cd energy-data-pipeline
+pip install -r requirements.txt
+jupyter notebook
+
+## Key Learnings
+
+Importance of reproducible and well-documented data pipelines
+Data quality validation techniques
+Translating raw industrial data into actionable insights
+
+This project reflects my preparation for building robust ETL processes in the clean energy sector, which aligns directly with Ember's work on global electricity and renewable datasets.
