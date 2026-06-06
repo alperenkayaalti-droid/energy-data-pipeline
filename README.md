@@ -1,26 +1,22 @@
-# energy-data-pipeline
-Energy consumption data processing and forecasting pipeline ( Pyhton + Pandas )
 # Energy Data Pipeline & Forecasting
 
-This project demonstrates my Python skills in collecting, cleaning, and analyzing energy consumption data. Developed based on my experience as Energy Efficiency Engineer at BRF Banvit A.S.
+This project demonstrates my **Python** skills in building a data processing pipeline for energy consumption analysis. It is inspired by my real experience as **Energy Efficiency Engineer at BRF Banvit A.S.** (2021-2023).
+
+## Project Objective
+To automate the ingestion, cleaning, validation, and analysis of large-scale utility data (steam, compressed air, water systems) and generate forecasts + KPIs for management and sustainability reporting.
 
 ## Technologies
-- Python 3
-- Pandas
+- **Python 3**
+- Pandas (data manipulation & cleaning)
 - NumPy
 - Jupyter Notebook
+- Matplotlib / Seaborn (for visualization)
 
-## Project Overview
-- Automated data cleaning and validation from multiple sources
-- KPI calculation and energy consumption forecasting
-- Export to Excel dashboards
+## What I Did
+- Automated data loading from multiple sources
+- Built data cleaning and validation functions (handling missing values, outliers, unit standardization)
+- Performed exploratory data analysis (EDA)
+- Calculated energy KPIs and created simple forecasting models
+- Prepared export to Excel dashboards
 
-## How to Run
-1. Clone the repository
-2. Install requirements: `pip install -r requirements.txt`
-3. Run the notebook: `jupyter notebook`
-
-## Key Learnings
-Learned the importance of clean data pipelines, reproducibility, and turning raw industrial data into actionable insights.
-
-This project reflects my preparation for building ETL processes in the clean energy sector.
+## Project Structure
